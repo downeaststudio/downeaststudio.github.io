@@ -1,7 +1,7 @@
 /*!
  * Lightbox v2.9.0
  * by Lokesh Dhakar
- *
+ *showImagw
  * More info:
  * http://lokeshdhakar.com/projects/lightbox2/
  *
@@ -46,7 +46,7 @@
     imageFadeDuration: 300,
     // maxWidth: 800,
     // maxHeight: 600,
-    positionFromTop: 100,
+    positionFromTop: 50,
     resizeDuration: 700,
     showImageNumberLabel: false,
     wrapAround: true,
