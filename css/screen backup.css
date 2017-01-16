@@ -32,7 +32,7 @@ img {
 	padding-top: 10px; display: block;
 }
 #header {
-	padding: 0.4em 15px 0px; width: 97%; clear: both; float: left; background: rgb(180, 180, 180);
+	padding: 0.4em 15px 0px; width: 100%; clear: both; float: left; background: rgb(180, 180, 180);
 
 }
 #header {
@@ -102,13 +102,40 @@ img {
 	background: rgb(217, 219, 231); right: 50%;
 }
 .threecol .col1 {
-	left: 81%; width: 30%;
+	left: 102%; width: 29%;
 }
 .threecol .col2 {
-	left: 80%; width: 30%;
+	left: 15%; width: 29%;
 }
 .threecol .col3 {
-	left: 82%; width: 30%;
+	left: 75%; width: 29%;
+}
+#footer {
+	width: 100%; clear: both; border-top-color: rgb(200, 200, 200); border-top-width: 4px; border-top-style: solid; float: left;
+}
+#footer p {
+	margin: 0px; padding: 10px;
+}
+.colmask {
+	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
+}
+.colright {
+	width: 100%; float: left; position: relative;
+}
+.colmid {
+	width: 100%; float: left; position: relative;
+}
+.colleft {
+	width: 100%; float: left; position: relative;
+}
+.threecol {
+	background: rgb(217, 219, 231);
+}
+.threecol .colmid {
+	background: rgb(217, 219, 231); right: 25%;
+}
+.threecol .colleft {
+	background: rgb(217, 219, 231); right: 50%;
 }
 .threecol .col1 {
 	left: 81%; width: 30%;
@@ -118,39 +145,4 @@ img {
 }
 .threecol .col3 {
 	left: 82%; width: 30%;
-}#footer {
-	width: 100%; clear: both; border-top-color: rgb(200, 200, 200); border-top-width: 4px; border-top-style: solid; float: left;
-}
-#footer p {
-	margin: 0px; padding: 10px;
-}
-.footcolmask {
-	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
-}
-.footcolright {
-	width: 100%; float: left; position: relative;
-}
-.footcolmid {
-	width: 100%; float: left; position: relative;
-}
-.footcolleft {
-	width: 100%; float: left; position: relative;
-}
-.footcol {
-	background: rgb(217, 219, 231);
-}
-.footcol .footcolmid {
-	background: rgb(217, 219, 231); right: 25%;
-}
-.footcol .footcolleft {
-	background: rgb(217, 219, 231); right: 50%;
-}
-.footcol .footcol1 {
-	left: 45%; width: 30%;
-}
-.footcol .footcol2 {
-	left: 30%; width: 30%;
-}
-.footcol .footcol3 {
-	left: 50%; width: 30%;
 }
