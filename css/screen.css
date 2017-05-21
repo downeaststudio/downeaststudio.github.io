@@ -118,7 +118,17 @@ img {
 }
 .threecol .col3 {
 	left: 82%; width: 30%;
-}#footer {
+}
+.rowmask {
+	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
+}
+.row {
+	left: 76%; width: 100%;
+}
+.row {
+	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
+}
+#footer {
 	width: 100%; clear: both; border-top-color: rgb(200, 200, 200); border-top-width: 4px; border-top-style: solid; float: left;
 }
 #footer p {
