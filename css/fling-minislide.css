@@ -1,4 +1,4 @@
-.fling-minislide {height: auto; padding-bottom: 85%; overflow:hidden; position:relative; padding: 0.1em 75px 600px;}
+.fling-minislide {height: auto; padding-bottom: 85%; overflow:hidden; position:relative; padding: 0.1em 5% 600px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 40s infinite; opacity:0; width: 85%; height: auto;}
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
 .fling-minislide img:nth-child(8){animation-delay:0s;}
