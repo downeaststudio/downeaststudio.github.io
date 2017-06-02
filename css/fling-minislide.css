@@ -1,5 +1,5 @@
-.fling-minislide {width: 50vw; height: 50vh; padding-bottom: 100%; overflow:hidden; position:relative; padding: 0.5em 75px 600px;}
-.fling-minislide img{ position:absolute; animation:fling-minislide 40s infinite; opacity:0; width: 85%; height: 100%;}
+.fling-minislide {width: 75%; height: 75%; padding-bottom: 100%; overflow:hidden; position:relative; padding: 0.5em 75px 600px;}
+.fling-minislide img{ position:absolute; animation:fling-minislide 40s infinite; opacity:0; width: 85%; height: 85%%;}
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
 .fling-minislide img:nth-child(8){animation-delay:0s;}
 .fling-minislide img:nth-child(7){animation-delay:5s;}
