@@ -13,6 +13,9 @@ a:hover {
 #container2 p {
 	padding: 5.0em 100px 50px;
 }
+#container3 p {
+	padding: 1.0em 25px 50px;
+}
 h1 {
 	margin: 0.8em 0px 0.2em; padding: 0px;
 }
@@ -71,6 +74,37 @@ img {
 #layoutdims {
 	background: rgb(217, 219, 231); margin: 0px; padding: 6px 15px !important; text-align: right; clear: both; border-top-color: rgb(0, 0, 0); border-top-width: 4px; border-top-style: solid;
 }
+.colmask {
+	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
+}
+.col-a {
+	width: 100%; float: left; position: relative;
+}
+.col-b {
+	width: 100%; float: left; position: relative;
+}
+.col-a {
+	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
+}	
+col-b {
+	padding: 0px 0px 1em; overflow: none; float: right; position: relative;
+}
+.twocol {
+	background: rgb(217, 219, 231);
+}
+.twocol .colmid {
+	background: rgb(217, 219, 231); right: 29%;
+}
+.twocol .colleft {
+	background: rgb(217, 219, 231); right: 50%;
+}
+.twocol .col-a {
+	left: 75%; width: 21%;
+}
+.twocol .col-b {
+	left: 77%; width: 79%;
+}
+
 .colmask {
 	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
 }
