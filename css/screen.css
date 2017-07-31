@@ -84,10 +84,10 @@ img {
 	width: 100%; float: right; position: relative;
 }
 .col-a {
-	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
+	padding: 0px 0px 0em; overflow: hidden; float: left; position: relative;
 }	
 col-b {
-	padding: 0px 0px 1em; overflow: none; float: right; position: relative;
+	padding: 0px 0px 0em; overflow: none; float: right; position: relative;
 }
 .twocol {
 	background: rgb(217, 219, 231);
