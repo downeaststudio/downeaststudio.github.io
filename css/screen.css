@@ -78,16 +78,16 @@ img {
 	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
 }
 .col-a {
-	width: 100%; float: leftt; position: relative;
+	width: 100%; float: left; position: relative;
 }
 .col-b {
 	width: 100%; float: right; position: relative;
 }
 .col-a {
-	padding: 0px 0px 0em; overflow: hidden; float: left; position: relative;
+	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
 }	
 col-b {
-	padding: 0px 0px 0em; overflow: none; float: right; position: relative;
+	padding: 0px 10px 0em; overflow: none; float: right; position: relative;
 }
 .twocol {
 	background: rgb(217, 219, 231);
@@ -99,7 +99,7 @@ col-b {
 	background: rgb(217, 219, 231); right: 50%;
 }
 .twocol .col-a {
-	left: 75%; width: 21%;
+	left: 75%; width: 11%;
 }
 .twocol .col-b {
 	left: 77%; width: 79%;
