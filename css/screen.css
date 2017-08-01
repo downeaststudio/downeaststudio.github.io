@@ -1,5 +1,5 @@
 body {
-media: screen;	background: rgb(217, 219, 231); margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%; font-size: 100%; min-width: 600px; min-height: 720px;
+media: screen;	background: rgb(217, 219, 231); margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%; font-size: 100%; min-width: 600px; min-height: 720px; max-width: 800px;
 }
 a {
 	color: rgb(51, 102, 153);
