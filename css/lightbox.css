@@ -26,7 +26,8 @@ body.lb-disable-scrolling {
   z-index: 10000;
   text-align: center;
   line-height: 0;
-  font-weight: normal;}
+  font-weight: normal;
+}
 
 .lightbox .lb-image {
   display: block;
@@ -49,7 +50,9 @@ body.lb-disable-scrolling {
   width: 250px;
   height: 250px;
   margin: 0 auto;
-  border-radius: 4px;  /* Background color behind image.
+  border-radius: 4px;
+
+  /* Background color behind image.
      This is visible during transitions. */
   background-color: white;
 }
@@ -86,6 +89,7 @@ body.lb-disable-scrolling {
   width: 100%;
   z-index: 10;
 }
+
 .lb-container > .nav {
   left: 0;
 }
@@ -108,16 +112,17 @@ body.lb-disable-scrolling {
   background: url(../images/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
 }
 
 .lb-nav a.lb-prev:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
 .lb-nav a.lb-next {
   width: 64%;
   right: 0;
@@ -125,10 +130,10 @@ body.lb-disable-scrolling {
   background: url(../images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
 }
 
 .lb-nav a.lb-next:hover {
@@ -175,7 +180,9 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-caption a {
   color: #4ae;
-}.lb-data .lb-number {
+}
+
+.lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -193,7 +200,7 @@ body.lb-disable-scrolling {
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
-  -webkit-transition: opacity 0.2s;p
+  -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
