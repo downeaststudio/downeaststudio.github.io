@@ -36,7 +36,7 @@ img {
 	padding-top: 10px; display: block;
 }
 #header {
-	padding: 0.4em 15px 0px; width: 100%; clear: both; float: left; background: rgb(180, 180, 180);
+	padding: 0.4em 15px 0px; clear: both; float: left; background: rgb(180, 180, 180);
 }
 #header {
 	border-bottom-color: rgb(200, 200, 200); border-bottom-width: 6px; border-bottom-style: solid;
@@ -145,10 +145,10 @@ col-b {
 	left: 75%; width: 29%;
 }
 #footer {
-	width: 100%; clear: both; border-top-color: rgb(200, 200, 200); border-top-width: 4px; border-top-style: solid; float: left;
+ width:  100%; clear: both; border-top-color: rgb(180,180,180); border-top-width: 4px; border-top-style: solid; float: left; background: rgb(217, 219, 231);
 }
 #footer p {
-	margin: 0px; padding: 10px;
+	margin: 0px; padding: 10px; background: rgb(217, 219, 231);
 }
 .colmask {
 	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
