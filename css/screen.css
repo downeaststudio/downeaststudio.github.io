@@ -78,10 +78,10 @@ img {
 	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
 }
 .col-a {
-	width: 45%; float: left; position: relative;
+	width: 150px; float: left; position: relative;
 }
 .col-b {
-	width: 95%; float: right; position: relative;
+	width: 800px; float: right; position: relative;
 }
 .col-a {
 	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
