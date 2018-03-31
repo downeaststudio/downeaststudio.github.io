@@ -1,182 +1,135 @@
-body {
-media: screen;	background: rgb(217, 219, 231); margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%; font-size: 100%; min-width: 600px; max-height: 1000px;
-}
+<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML 
+xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
 
-a {
-	color: rgb(51, 102, 153);
-}
-a:hover {
-	background: none; color: rgb(102, 102, 102); text-decoration: none;
-}
-#container p {
-	padding: 5.0em 250px 50px; max-width: 500px;
-}
-#container2 p {
-	padding: 5.0em 100px 50px; max-width: 500px;
-}
-#container3 p {
-	padding: 1.0em 25px 50px; max-width: 500px;
-}
-h1 {
-	margin: 0.8em 0px 0.2em; padding: 0px;
-}
-h2 {
-	margin: 0.8em 0px 0.2em; padding: 0px;
-}
-h3 {
-	margin: 0.8em 0px 0.2em; padding: 0px;
-}
-p {
-	margin: 0.4em 0px 0.8em; padding: 0px;
-}
-img {
-	margin: 10px 0px 5px;
-}
-#ads img {
-	padding-top: 10px; display: block;
-}
-#header {
-	padding: 0.4em 15px 0px; clear: both; float: left; background: rgb(180, 180, 180);
-}
-#header {
-	border-bottom-color: rgb(200, 200, 200); border-bottom-width: 6px; border-bottom-style: solid;
-}
-#header p {
-	padding: 0.4em 15px 0px;
-}
-#header h1 {
-	padding: 0.4em 15px 0px;
-}
-#header h2 {
-	padding: 0.4em 15px 0px;
-}
-#header ul {
-	list-style: none; margin: 10px 0px 0px; padding: 0px; width: 100%; clear: left; float: left;
-}
-#header ul li {
-	list-style: none; margin: 0px; padding: 0px; display: inline;
-}
-#header ul li a {
-	background: rgb(217, 219, 231); margin: 0px 0px 0px 1px; padding: 3px 10px; left: 15px; text-align: center; color: rgb(0, 0, 0); line-height: 1.3em; text-decoration: none; float: left; display: block; position: relative;
-}
-#header ul li a:hover {
-	background: rgb(51, 102, 153); color: rgb(250, 250, 250);
-}
-#header ul li a.active {
-	background: rgb(0, 0, 0); color: rgb(255, 255, 255); font-weight: bold;
-}
-#header ul li a.active:hover {
-	background: rgb(0, 0, 0); color: rgb(255, 255, 255); font-weight: bold;
-}
-#header ul li a span {
-	display: block;
-}
-#layoutdims {
-	background: rgb(217, 219, 231); margin: 0px; padding: 6px 15px !important; text-align: right; clear: both; border-top-color: rgb(0, 0, 0); border-top-width: 4px; border-top-style: solid;
-}
-.colmask {
-	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
-}
-.col-a {
-	width: 45%; float: left; position: relative;
-}
-.col-b {
-	width: 85%; float: right; position: relative;
-}
-.col-a {
-	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
-}	
-col-b {
-	padding: 0px 10px 0em; overflow: none; float: right; position: relative;
-}
-.twocol {
-	background: rgb(217, 219, 231);
-}
-.twocol .colmid {
-	background: rgb(217, 219, 231); right: 29%;
-}
-.twocol .colleft {
-	background: rgb(217, 219, 231); right: 50%;
-}
-.twocol .col-a {
-	left: 75%; width: 11%;
-}
-.twocol .col-b {
-	left: 77%; width: 79%;
-}
-.colmask {
-	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
-}
-.colright {
-	width: 100%; float: left; position: relative;
-}
-.colmid {
-	width: 100%; float: left; position: relative;
-}
-.colleft {
-	width: 100%; float: left; position: relative;
-}
-.col1 {
-	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
-}
-.col2 {
-	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
-}
-.col3 {
-	padding: 0px 0px 1em; overflow: hidden; float: left; position: relative;
-}
-.threecol {
-	background: rgb(217, 219, 231);
-}
-.threecol .colmid {
-	background: rgb(217, 219, 231); right: 25%;
-}
-.threecol .colleft {
-	background: rgb(217, 219, 231); right: 50%;
-}
-.threecol .col1 {
-	left: 102%; width: 29%;
-}
-.threecol .col2 {
-	left: 15%; width: 29%;
-}
-.threecol
- .col3 {
-	left: 75%; width: 29%;
-}
-#footer {
- clear: both; width: 100%; border-top-color: rgb(180,180,180); border-top-width: 4px; border-top-style: solid; float: left; background: rgb(217, 219, 231);
-}
-#footer p {
-	margin: 0px; padding: 10px; background: rgb(217, 219, 231);
-}
-.colmask {
-	width: 100%; overflow: hidden; clear: both; float: left; position: relative;
-}
-.colright {
-	width: 100%; float: left; position: relative;
-}
-.colmid {
-	width: 100%; float: left; position: relative;
-}
-.colleft {
-	width: 100%; float: left; position: relative;
-}
-.threecol {
-	background: rgb(217, 219, 231);
-}
-.threecol .colmid {
-	background: rgb(217, 219, 231); right: 25%;
-}
-.threecol .colleft {
-	background: rgb(217, 219, 231); right: 50%;
-}
-.threecol .col1 {
-	left: 81%; width: 30%;
-}
-.threecol .col2 {
-	left: 80%; width: 30%;
-}
-.threecol .col3 {
-	left: 82%; width: 30%;
-}
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">	 <TITLE>Down 
+East Studio. Vibrant contemporary scenes from midcoast Maine.</TITLE>		 
+<META name="description" content="Since 2010 Down East Studio has been publishing some of Maine's most vibrant landscapes.">
+ 
+<META name="robots" content="index, follow">	 <LINK href="images/favicon.ico" 
+rel="shortcut icon" type="image/x-icon">	 <LINK href="css/screen.css" 
+rel="stylesheet" type="text/css" media="screen"> 
+<STYLE></STYLE>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17496">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38149994-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</HEAD> 
+<BODY>
+<DIV id="header"><img src="images/logo.jpeg"; width="100%"> 
+</DIV>
+
+<DIV class="colmask twocol">
+<DIV class="colmid">
+<DIV class="colleft">
+
+<DIV align="center" class="col-a">
+<!-- Column 2 start --> 
+<br>
+<br>
+<a href= "index.html"><IMG width="60%" 
+alt="Three column layout dimensions" src="sidebar/home.png"></a><br>
+<a href= "gallery.html"><IMG width="60%" 
+alt="Three column layout dimensions" src="sidebar/gallery.png"></a><br>
+<a href= "about.html"><IMG width="60%" 
+alt="Three column layout dimensions" src="sidebar/about.png"></a>
+				 <!-- Column 2 end -->
+			 </DIV>
+			 	 
+<DIV align="left" class="col-b" width="95%">
+<div id="container3" align="center"><SPAN style="font-family: Arial; language: EN;"><p><b>Using this website</b></br>
+Please note that the intellectual property rights in all content comprising or contained within this website address (URL) is owned by Down East Studio, and other copyright owners as specified.
+The contents of this website are published for your enjoyment. You may freely access and store the majority of the website's contents on a temporary basis for the purposes of personal or private viewing, interaction or listening.
+</br>
+</br>
+<b>Reproducing content from the Down East Studio website</b></br>
+All website content is owned and copyrighted by Down East Studio and may not be reproduced for any commercial or non-commercial purposes including but not limited to:</br>
+1. Reproduction of website content for commercial purposes, or any rental, leasing or lending of content obtained or derived from the website</br>
+2. Any use of the Down East Studio logo, brand identities or trademarks without prior consent from Down East Studio</br>
+3. Any considerable public dissemination, display or hosting of website content via any third-party platforms, including without limitation, the substantial or repeated extraction and/or storage of Down East Studio website content in any retrieval system, or inclusion in any other computer program or work</br>
+4. Reproduction of Down East Studio website content on any social media platforms, except where other terms allow</br>
+5. Inaccurate or distorted reproductions, color treatments, alterations or adaptations of website content, except where other terms allow</br>
+6. Publication of any unauthorized translations or transcriptions of website content, except where other terms allow</br>
+7. False attribution of authorial or copyright credits, and the removal of any Down East Studio metadata from digital file formats</br>
+8. Unauthorized text/data mining of website content and metadata</br>
+</br>
+<b>Non-commercial use</b></br>
+Down East Studio would usually regard the following uses of Down East Studio imagery as non-commercial activity:</br>
+1.	Use in free educational lectures and classes</br>
+2.	Use on an individual or group's website discussing the artwork in question</br>
+3.	Use on websites that are primarily information-led, research-oriented and obviously non-commercial in nature, for example the William Blake Archive and Wikipedia</br>
+4.	Use on personal social media accounts, provided the individual is not promoting themselves commercially</br>
+</br>
+<b>Commercial use</b></br>
+Creative Commons defines commercial use as "reproducing a work in any manner that is primarily intended for or directed toward commercial advantage or monetary compensation".</br>
+Down East Studio further defines commercial use as "use on or in anything that itself is charged for, on or in anything connected with something that is charged for, or on or in anything intended to make a profit or to cover costs."</br>
+As well as obvious commercial activities such as merchandise production, use of Down East Studio images editorially in films and on TV, in publications that are sold, in advertisements and commercial promotions, Down East Studio would usually regard the following uses of Down East Studio imagery as commercial activity:</br>
+1.	Use online or in print by commercial organizations, including (for the avoidance of doubt) use by charities</br>
+2.	Use on a website in such a way that adds value to their business, or for promotional purposes, or where offering a service to third parties</br>
+3.	Use of images by university presses in publications online or in print</br>
+4.	Use in publicity and promotional material connected with commercial events</br>
+5.	Unsolicited use of images by news media, including front covers and center-page spreads</br>
+6.	Use in compilations of past examination papers</br>
+7.	Use by commercial galleries and auction houses</br>
+<br>
+<b>Sourcing images from the Down East Studio website</b></br>
+Down East Studio is committed to providing online access to as many of the works in its collection as possible, via the Down East Studio website. Nothing in these terms shall be construed to extend the permissions to any other party, unless specified.</br>
+However, many artworks are readily available as reproductions:</br>
+1.	To view free online at Turningart.com (<A href="https://www.turningart.com/artist/kevin-smith" target= "_blank">www.turningart.com</A>)</br>
+2.	To purchase as greeting cards and posters through Down East Studio ,Bay View Press (<A href="http://www.bayviewpress.com/Unassigned/winter/900-rust/" target= "_blank">www.bayviewpress.com</A>) and Turning Art (<a href= "https://www.turningart.com/artist/kevin-smith" target= "_blank">www.turningart.com</a>)</br>
+3.	To order as framed prints</br>
+4.	To license, purchase and download high-resolution digital files for commercial use</br>
+5.	Commercial inquiries about other Down East Studio content (e.g. text, video or design work) should be emailed to <A 
+href="mailto: info@downeaststudio.com">the studio manager</A>.</br>
+Please note that the further reproduction of artworks, or any other images or content, made available by Down East Studio may constitute an infringement of copyright. It is therefore your responsibility to investigate and obtain permission from copyright holders or their agents before publishing such content.</br>
+</br>
+<b>Legal notice</b></br>
+Down East Studio is committed to respecting the intellectual property rights of others. We have therefore taken reasonable efforts to ensure that the reproduction of all content on the pages of the Down East Studio website and other digital publications (including, but not restricted to, images, text and video) is done with the full consent of copyright owners.</br>
+If you are a copyright holder and are concerned that you have found material on this website for which you have not granted permission  please contact Down East Studio in writing stating the following:</br>
+1.	Your contact details</br>
+2.	The full details of the material's creator</br>
+3.	The exact and full web address (URL) where you found the material</br>
+4.	Notarized proof that, under penalty of perjury, you are the copyright holder or an authorized representative</p>
+</br>
+</br>
+Down East Studio</br>
+PO Box 454</br>
+East Boothbay, ME 04544</br></br>
+			 </DIV></DIV></DIV></DIV>
+		 
+<DIV id="footer">
+<DIV class="colmask threecol">
+<DIV class="colmid">
+<DIV class="colleft">
+
+<DIV align="center" class="col1"><!-- Column 2 start -->				 <SPAN style="font-family: Arial; language: EN;">
+<H2>Terms of use</H2><A href="terms.html"> &copy; 
+2017 Down East Studio.<BR>All rights reserved.</A></SPAN>
+				 <!-- Column 2 end -->
+			 </DIV>
+			 
+<DIV align="center" class="col2"><!-- Column 1 start -->				 <SPAN style="font-family: Arial; language: EN;">
+<H2>Artwork</H2><A href="gallery.html">Gallery</A></SPAN>
+				 <!-- Column 1 end -->			 </DIV>
+					 
+<DIV align="center" class="col3"><!-- Column 3 start -->				 <SPAN style="font-family: Arial; language: EN;">
+<H2>Contact</H2>  
+<a href= "mailto: info@downeaststudio.com">info@downeaststudio.com</a>
+</br>
+<A href="contact.html" target= "_blank"> Or use our contact form</A></SPAN>								 <!-- Column 3 end -->
+
+			 </DIV>
+		</DIV></DIV></DIV>
+			 
+			 </BODY>
+<div align="center">Webdesign and hosting provided by <a href="https://seacoasttechservices.github.io" target= "_blank">Seacoast Tech Services</a></br></br></br></div> 			 
+			 </HTML>
