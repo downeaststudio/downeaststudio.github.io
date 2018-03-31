@@ -9,10 +9,10 @@ a:hover {
 	background: none; color: rgb(102, 102, 102); text-decoration: none;
 }
 #container p {
-	padding: 5.0em 250px 50px; max-width: 700px;
+	padding: 5.0em 250px 50px; max-width: 500px;
 }
 #container2 p {
-	padding: 5.0em 100px 50px; max-width: 700px;
+	padding: 5.0em 100px 50px; max-width: 500px;
 }
 #container3 p {
 	padding: 1.0em 25px 50px; max-width: 500px;
@@ -81,7 +81,7 @@ img {
 	width: 100%; float: left; position: relative;
 }
 .col-b {
-	width: 100%; float: right; position: relative;
+	width: 85%; float: right; position: relative;
 }
 .col-a {
 	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
