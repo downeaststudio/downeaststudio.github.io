@@ -27,7 +27,7 @@ h3 {
 	margin: 0.8em 0px 0.2em; padding: 0px;
 }
 p {
-	margin: 0.4em 0px 0.8em; padding: 0px;
+	margin: 0.4em 0px 0.8em; padding: 0px; width: 85%;
 }
 img {
 	margin: 10px 0px 5px;
@@ -81,13 +81,13 @@ img {
 	width: 150px; float: left; position: relative;
 }
 .col-b {
-	width: 800px; float: right; position: relative;
+	width: 500px; float: right; position: relative; margin: auto;
 }
 .col-a {
-	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
+	padding: 0px 45px 0em; overflow: hidden; float: left;
 }	
 col-b {
-	padding: -500px 0px 50em; overflow: none; float: right; position: relative;
+	padding: 0px 0px 50em; overflow: hidden; float: right;
 }
 .twocol {
 	background: rgb(217, 219, 231);
