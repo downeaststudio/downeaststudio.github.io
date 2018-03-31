@@ -87,7 +87,7 @@ img {
 	padding: 0px 45px 0em; overflow: hidden; float: left; position: relative;
 }	
 col-b {
-	padding: 0px 45px 0em; overflow: hidden; float: right; position: relative;
+	padding: 0px 45px 0em; width: 100%; overflow: hidden; float: right; position: relative;
 }
 .twocol {
 	background: rgb(217, 219, 231);
