@@ -13,7 +13,7 @@ html{
 	background-image:none;	background-color:#DEDEDE;
 }
 #container, html.embed{
-	background-color:#FFFFFF;
+	background-color:#FFFFFF ;
 }
 .safari .wufoo input.file{
 	background:none;
@@ -29,13 +29,13 @@ html{
 
 /* ----- Borders ----- */
 #container{
-	border:1px solid #CCCCCC;
+	border:1px solid #FFFFFF;
 }
 .wufoo .info, .wufoo .paging-context{
-	border-bottom:1px dotted #CCCCCC;
+	border-bottom:1px dotted #FFFFFF;
 }
 .wufoo .section h3, .wufoo .captcha, #payment .paging-context{
-	border-top:1px dotted #CCCCCC;
+	border-top:1px dotted #FFFFFF;
 }
 .wufoo input.text, .wufoo textarea.textarea{
 
@@ -361,4 +361,3 @@ a.powertiny b, a.powertiny em{
 }
 
 /* - - - Custom Theme - - - */
-
